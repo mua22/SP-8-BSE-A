@@ -1,0 +1,66 @@
+.pd {
+  border: 2px solid red;
+  margin: 5px;
+  padding: 0px;
+  background-color: yellow;
+  text-align: justify;
+  overflow: hidden;
+  position: relative;
+}
+.special {
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+body {
+  background-color: aqua;
+}
+#avatar {
+  margin: 10px;
+  background-color: blue;
+  padding: 3px;
+  border: 3px dotted red;
+  float: right;
+  width: 100px;
+  position: relative;
+  right: 100px;
+}
+div {
+  background-color: orange;
+  float: right;
+  width: 250px;
+}
+
+#menu > li {
+  display: inline;
+  padding-right: 10px;
+  background-color: red;
+  margin: 0px;
+}
+.has-submenu {
+  position: relative;
+}
+.submenu {
+  display: none;
+  position: absolute;
+  background: pink;
+  z-index: 10000;
+}
+.has-submenu:hover {
+  background-color: yellow !important;
+}
+
+.has-submenu:hover .submenu {
+  display: block;
+}
+.announcement {
+  background-color: black !important;
+  color: white !important;
+  padding: 2px;
+  margin: 2px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
