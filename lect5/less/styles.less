@@ -1,0 +1,27 @@
+@background-color: aqua;
+.bigBtn {
+  background-color: @background-color;
+  height: 45px;
+  .btn;
+}
+.smallBtn {
+  background-color: @background-color;
+  height: 25px;
+  .btn(dotted);
+}
+
+.btn(@borderStyle: dashed) {
+  border: 2px @borderStyle blue;
+  padding: 5px;
+  margin: 5px;
+}
+
+ul {
+  background-color: blue;
+  li {
+    background-color: yellow;
+    a {
+      color: green;
+    }
+  }
+}

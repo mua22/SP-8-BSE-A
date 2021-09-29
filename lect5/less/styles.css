@@ -1,0 +1,23 @@
+.bigBtn {
+  background-color: aqua;
+  height: 45px;
+  border: 2px dashed blue;
+  padding: 5px;
+  margin: 5px;
+}
+.smallBtn {
+  background-color: aqua;
+  height: 25px;
+  border: 2px dotted blue;
+  padding: 5px;
+  margin: 5px;
+}
+ul {
+  background-color: blue;
+}
+ul li {
+  background-color: yellow;
+}
+ul li a {
+  color: green;
+}
